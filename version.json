@@ -1,0 +1,6 @@
+{
+  "versionCode": 14,
+  "versionName": "2.4.3",
+  "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
+  "releaseNotes": "Aurea v2.4.3: Concordancia 100% palabra por palabra entre voz de Charlote y texto contextual en el módulo académico; Selector nativo de cuentas de Google del dispositivo para vinculación y sincronización en la nube; Canal público oficial de actualizaciones 'aurea-releases' para descarga e instalación directa sin errores de repositorio privado."
+}
