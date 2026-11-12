@@ -1,6 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "0.1.3",
+  "versionCode": 22,
+  "versionName": "0.1.4",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.3: Sistema Mirmecológico Avanzado del Perú. Gestión de múltiples colonias independientes (1 por especie desbloqueada) con hibernación segura (las colonias no activas quedan protegidas sin consumo de néctar ni riesgo de hambruna). Restricción mensual estricta: cambio de colonia principal limitado a 1 vez cada 30 días. Inicio biológico desde cero: solo la Reina fundadora en claustro protegiendo su primer huevo. Guardería de Crías Real interactiva con crecimiento dinámico de huevos incubados por minutos de enfoque Pomodoro y calor de Nodrizas (+15% por nodriza), con estimulación directa de puesta de huevos. Catálogo completo de 8 géneros emblemáticos del Perú (Brachymyrmex, Ectatomma, Camponotus, Atta, Cephalotes, Odontomachus, Paraponera, Pseudomyrmex) y especies nativas peruanas con amplia colección de morfologías (skins) y representación visual anatómica en vivo sobre el lienzo (Atta con transporte dorsal de hojas y súper-soldados, Cephalotes con cabeza discoide de tapón, Odontomachus con mandíbulas de trampa a 180°, Paraponera titánica con aguijón prominente, y Pseudomyrmex con ojos compuestos gigantes)."
+  "releaseNotes": "Aurea v0.1.4: Mirmecofauna por bloques de género sin duplicados, gestión académica integral por Ciclos Semestrales (ej. 2026-2) con fechas de inicio/fin, finalización automática por fecha límite o manual, historial y edición de ciclos pasados, y eliminación de sugerencias de nombres predeterminados en grupos de evaluación."
 }
