@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "0.1.1",
+  "versionCode": 20,
+  "versionName": "0.1.2",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.1: Rediseño visual completo y animado del Formicarium: corte geológico interactivo (Vivo) y escena ilustrada animada (Arte) con obreras recorriendo galerías, medallones oficiales y reinas vectoriales con skins equipables en vivo, cámaras inspeccionables por toque, Pomodoro circular con pausa/reanudar y batallas animadas contra el asedio semanal."
+  "releaseNotes": "Aurea v0.1.2: Modo en vivo único e interactivo en Formicarium con corte geológico optimizado. Gamificación avanzada estilo Duolingo: contador de racha diaria con medalla de fuego y escudos de congelación (Streak Freezes), meta de concentración diaria con anillo de progreso, 3 misiones subterráneas diarias reclamables, eventos subterráneos en vivo rotativos cada 24h, especialización de castas (Reina, Nodrizas, Forrajeras, Excavadoras, Soldados con patrulla exterior y rasgos físicos distintivos), tienda subterránea con potenciadores y adornos en vivo que se renderizan directamente en las cámaras del hormiguero. Concordancia estricta 1 a 1 de voces y textos de Charlote (26 diálogos de alta fidelidad sintetizados con Google AI Studio)."
 }
