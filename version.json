@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "2.4.3",
+  "versionCode": 15,
+  "versionName": "2.5.0",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v2.4.3: Concordancia 100% palabra por palabra entre voz de Charlote y texto contextual en el módulo académico; Selector nativo de cuentas de Google del dispositivo para vinculación y sincronización en la nube; Canal público oficial de actualizaciones 'aurea-releases' para descarga e instalación directa sin errores de repositorio privado."
+  "releaseNotes": "Aurea v2.5.0: Sistema Integral de Acompañantes de Estudio y Reemplazo por Paquete (.zip). Permite almacenar ilimitados personajes (1 activo a la vez), subir paquetes completos validados (voces, retratos, diálogos y manifest.json), cambiar nombre y retrato principal. Concordancia auditiva del 100% de fábrica con la voz natural y cariñosa de Charlote. Arquitectura modular 'feature.companion' documentada para desarrolladores y Antigravity."
 }
