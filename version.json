@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "0.0.1",
+  "versionCode": 18,
+  "versionName": "0.1.0",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.0.1 (Fase Beta): Nueva interfaz académica rediseñada y amigable con el usuario. Modal de creación con selector claro entre evaluación Individual y Conjunto/Grupo. Sistema de 3 políticas de redondeo para grupos: mantener en decimales, redondeo estándar (10.5 sube a 11, sino trunca a 10) y redondear al más bajo (aún 10.8 queda en 10)."
+  "releaseNotes": "Aurea v0.1.0: Sistema de Formicarium integrado con Pomodoro de excavación en vivo, asedios de mini-jefes semanales con barra de vida por horas de estudio, sinergia académica (huevos de cría por notas aprobadas y ámbar por notas sobresalientes), tienda mirmecológica con 4 géneros de reinas y skins, más 3 nuevas ilustraciones y audios oficiales de Charlote."
 }
