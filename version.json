@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "0.1.0",
+  "versionCode": 19,
+  "versionName": "0.1.1",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.0: Sistema de Formicarium integrado con Pomodoro de excavación en vivo, asedios de mini-jefes semanales con barra de vida por horas de estudio, sinergia académica (huevos de cría por notas aprobadas y ámbar por notas sobresalientes), tienda mirmecológica con 4 géneros de reinas y skins, más 3 nuevas ilustraciones y audios oficiales de Charlote."
+  "releaseNotes": "Aurea v0.1.1: Rediseño visual completo y animado del Formicarium: corte geológico interactivo con obreras animadas recorriendo galerías, reinas vectoriales con morfologías y skins equipables en vivo, cámaras inspeccionables por toque, cronómetro Pomodoro circular con pausa/reanudar y batallas animadas contra el asedio semanal."
 }
