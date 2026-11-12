@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "0.1.4",
+  "versionCode": 23,
+  "versionName": "0.1.5",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.4: Mirmecofauna por bloques de género sin duplicados, gestión académica integral por Ciclos Semestrales (ej. 2026-2) con fechas de inicio/fin, finalización automática por fecha límite o manual, historial y edición de ciclos pasados, y eliminación de sugerencias de nombres predeterminados en grupos de evaluación."
+  "releaseNotes": "Aurea v0.1.5: Asignación de créditos por curso, cálculo y visualización del puntaje real acumulado (pendientes = 0), métricas del ciclo en tiempo real con alternancia entre notas actuales y acumuladas (ponderado por créditos y promedio simple), y ficha de cierre con resultados finales al concluir el ciclo académico."
 }
