@@ -6,33 +6,45 @@ Canal oficial y público de distribución y actualización continua para **Aurea
 
 ## 📥 Descarga Directa de la Última Versión
 
-- **Última Versión:** `v0.1.0` (Build `18`)
+- **Última Versión:** `v0.1.3` (Build `21`)
 - **Descargar APK Oficial:** [Aurea.apk](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk)
 - **Manifiesto de Versión:** [version.json](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/version.json)
 
 ---
 
-## 🐜 Novedades en v0.1.0 (Formicarium & Mirmecología)
+## 🐜 Novedades en v0.1.3 (Sistema Mirmecológico Avanzado del Perú)
 
-- **Formicarium & Excavación Pomodoro en Vivo:**
-  - Sistema de progreso biológico con tu colonia subterránea.
-  - Inicia con la reina fundadora *Brachymyrmex patagonicus*.
-  - Forrajea néctar con tus bloques de estudio (15, 25🍅, 50, 60⚡ min) y observa a tus obreras excavar galerías y túneles en tiempo real.
-- **Asedios Semanales y Mini-Jefes Depredadores:**
-  - Cada semana un depredador entomológico amenaza el nido (*Hormiga León*, *Avispa Parásita*, *Legión Eciton*, *Esporas Cordyceps*).
-  - Tu defensa es el estudio: acumula 8 horas semanales de concentración para neutralizar al jefe y ganar **Ámbar Puro**.
-  - Si la semana termina sin neutralizar la amenaza, la colonia sufrirá bajas de obreras por asedio.
-- **Sinergia Académica:**
-  - Registrar notas aprobatorias ($\ge 11$) nutre a la reina para poner camadas de huevos de cría que eclosionan en nuevas obreras.
-  - Notas sobresalientes ($\ge 16$) te recompensan con Ámbar extra.
-- **Tienda Mirmecológica de Prestigio:**
-  - Desbloquea nuevos géneros de reinas con Ámbar: *Camponotus* (carpintera gigante), *Odontomachus* (mandíbulas trampa a 180°), *Ectatomma* (acorazada prehistórica).
-  - Adquiere skins y morfologías de subespecies reales como *Terciopelo Dorado*, *Rojo Fuego* y *Cobre Metalizado*.
-- **Charlote Bitácora de Campo:**
-  - 3 nuevas ilustraciones oficiales estilo manhwa coreano en alta definición (*Observadora*, *Gema Ámbar*, *Defensa de Nido*).
-  - 5 nuevos audios oficiales de Charlote (`charlote_20` a `charlote_24`) siguiendo la arquitectura de voz Google AI Studio (`gemini-2.0-flash`, `Aoede`), con concordancia de voz al 100%.
-- **Acceso Directo:**
-  - Nueva pestaña en la barra de navegación principal ("Hormiguero") y botón rápido directo desde la tarjeta de concentración en la pantalla de inicio.
+- **Múltiples Colonias Independientes por Especie:**
+  - Puedes fundar y poseer colonias separadas por cada especie peruana que desbloquees.
+  - Eliges libremente tu colonia principal activa donde te concentrarás.
+- **Hibernación Segura para Colonias Inactivas:**
+  - Las colonias que no escojas como principal quedan congeladas en hibernación segura: no consumen reservas de néctar ni sufren muertes por hambruna ni asedios.
+- **Regla Mensual de Cambio de Colonia Principal:**
+  - El cambio de colonia principal está regulado a 1 vez cada 30 días con diálogo explicativo y contador de días restantes.
+- **Inicio Biológico desde Cero (Solo la Reina Fundadora):**
+  - Cada colonia empieza desde cero: 0 obreras, 0 nodrizas, 0 forrajeras, 0 excavadoras, 0 soldados.
+  - La reina está en claustro protegiendo su primer huevo fundador en la guardería subterránea.
+- **Guardería de Crías Real con Crecimiento y Castas Aleatorias:**
+  - Huevos aleatorios por casta según el género biológico.
+  - Incubación dinámica acelerada por minutos de concentración Pomodoro y calor de nodrizas (+15% de velocidad por cada nodriza).
+  - Estimulación directa de puesta de huevos por la reina con néctar o ámbar.
+- **Gran Catálogo de 8 Géneros y Especies Nativas del Perú:**
+  - *Brachymyrmex* (*B. patagonicus*, *B. cordemoyi*)
+  - *Ectatomma* (*E. ruidum*, *E. tuberculatum*)
+  - *Camponotus* (*C. sericeiventris*, *C. maculatus*)
+  - *Atta* (*A. cephalotes*, *A. sexdens* - Cortadoras Curuhuinsi)
+  - *Cephalotes* (*C. atratus*, *C. pusillus* - Tortuga y planeadoras)
+  - *Odontomachus* (*O. haematodus*, *O. bauri* - Mandíbulas de resorte)
+  - *Paraponera* (*P. clavata* - La mítica Isula amazónica)
+  - *Pseudomyrmex* (*P. triplarinus* - Hormiga del Tangarana)
+- **Morfología Visual Fiel en Canvas por Especie y Casta:**
+  - Forrajeras *Atta* cargando fragmentos de hojas verdes y súper-soldados.
+  - Soldados *Cephalotes* con cabeza discoide/aplanada de escudo (tapón de túnel).
+  - Mandíbulas de resorte lineales a 180° en *Odontomachus*.
+  - Cuerpo colosal y aguijón prominente en *Paraponera*.
+  - Ojos compuestos desproporcionadamente grandes en *Pseudomyrmex*.
+- **Colección Completa de Morfologías (Skins) por Especie:**
+  - Variantes de color y textura auténticas para cada especie del Perú.
 
 ---
 
