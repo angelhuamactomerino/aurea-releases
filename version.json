@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "2.5.1",
+  "versionCode": 17,
+  "versionName": "0.0.1",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v2.5.1: Solución definitiva al error de autenticación 'This operation is restricted to administrators only' al vincular cuenta de Google. Vinculación nativa y fluida de cuentas de Google con persistencia local de sesión y sincronización resiliente."
+  "releaseNotes": "Aurea v0.0.1 (Fase Beta): Nueva interfaz académica rediseñada y amigable con el usuario. Modal de creación con selector claro entre evaluación Individual y Conjunto/Grupo. Sistema de 3 políticas de redondeo para grupos: mantener en decimales, redondeo estándar (10.5 sube a 11, sino trunca a 10) y redondear al más bajo (aún 10.8 queda en 10)."
 }
