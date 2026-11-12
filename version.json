@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "2.5.0",
+  "versionCode": 16,
+  "versionName": "2.5.1",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v2.5.0: Sistema Integral de Acompañantes de Estudio y Reemplazo por Paquete (.zip). Permite almacenar ilimitados personajes (1 activo a la vez), subir paquetes completos validados (voces, retratos, diálogos y manifest.json), cambiar nombre y retrato principal. Concordancia auditiva del 100% de fábrica con la voz natural y cariñosa de Charlote. Arquitectura modular 'feature.companion' documentada para desarrolladores y Antigravity."
+  "releaseNotes": "Aurea v2.5.1: Solución definitiva al error de autenticación 'This operation is restricted to administrators only' al vincular cuenta de Google. Vinculación nativa y fluida de cuentas de Google con persistencia local de sesión y sincronización resiliente."
 }
