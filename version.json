@@ -1,6 +1,6 @@
 {
-  "versionCode": 25,
-  "versionName": "0.1.7",
+  "versionCode": 26,
+  "versionName": "0.1.8",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.7: Nueva interfaz de inicio (Onboarding en primer lanzamiento) con elección transparente de modo: Como Invitado (almacenamiento 100% local, inicio desde cero sin cuenta ni conexión) o Con Gmail (búsqueda automática de partida en el servidor y restauración integral en la nube). Respaldo y carga completa de la partida del hormiguero (castas, especies peruanas, huevos en incubación, recursos y decoraciones). Auditoría y perfeccionamiento estético de todas las pantallas con la identidad visual Aurea."
+  "releaseNotes": "Aurea v0.1.8: Gran expansión mirmecológica del Perú. Catálogo ampliado con 14 géneros y 22 especies peruanas reales (Atta, Acromyrmex, Cephalotes, Paraponera, Dinoponera, Odontomachus, Camponotus, Pheidole, Eciton, Dorymyrmex, Gigantiops, Pseudomyrmex, Brachymyrmex, Ectatomma). Tienda biológica de castas dinámica con perks especializados (jardineras de hongos, cortadoras de hojas, soldados fragmóticos, meleras almacén, cazadoras titán con aguijón nivel 4, mandíbulas de resorte 180°, soldados macrocéfalos, marabunta de hoz, princesas aladas reales). Sistema morfológico adaptado: especies monomórficas sin soldados con atributos evolutivos únicos. Modelos visuales anatómicos en tiempo real en el hormiguero interactivo."
 }
