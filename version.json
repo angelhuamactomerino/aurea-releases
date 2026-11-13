@@ -1,6 +1,6 @@
 {
-  "versionCode": 27,
-  "versionName": "0.1.9",
+  "versionCode": 28,
+  "versionName": "0.2.0",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.9: Corrección integral de inicio de sesión con Google y sincronización en Firebase. Se habilitó el Web Client ID oficial en google-services.json y se integró autenticación nativa con GoogleAuthProvider y Credential Manager para registrar de forma real y visible a los usuarios en Firebase Auth (Consola > Authentication > Users). Creación automática y merge del documento raíz users/{uid} en Cloud Firestore antes de subcolecciones para visualizar ciclos, asignaturas, notas y hormiguero en la base de datos de Firestore. Diagnóstico y retroalimentación transparente del estado de Cloud Firestore."
+  "releaseNotes": "Aurea v0.2.0: Búsqueda mirmecológica profunda y expansión taxonómica de la fauna de hormigas del Perú. Incorporación obligatoria de Camponotus mus (hormiga ratón con gáster aterciopelado cenizo), Camponotus convexiclypeus (joya endémica del Mantaro de clípeo abombado descrita por Mackay), Camponotus rufipes, C. femoratus (jardinera de epífitas), C. senex (tejedora de hojas con seda), C. blandus (plateada de quebradas secas) y C. renggeri (carpintera titán de selva virgen). Enorme expansión del género Pheidole con Pheidole aberrans (soldados con pronoto globoso reservorio de néctar dulce), Pheidole peruviana (descrita por E.O. Wilson para Cocha Cashu, Manu), Pheidole manuana, Pheidole machetula (mandíbulas en machete), Pheidole fimbriata (colosal cazadora de termitas), Pheidole susannae (cítrica amarilla) y Pheidole weiseri (andina del Cañón del Colca a 3,400 msnm), además de Brachymyrmex giardi, Cephalotes clypeatus y Odontomachus hastatus. Colección de skins hiperrealistas y sincronización transparente de datos en Room sin pérdida de progreso."
 }
