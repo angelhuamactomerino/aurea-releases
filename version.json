@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "0.1.6",
+  "versionCode": 25,
+  "versionName": "0.1.7",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.6: Corrección definitiva del cierre inesperado al iniciar la app (blindaje Room migrations y foreground service), optimización del consumo de batería y CPU, paquete completo de imágenes personalizables para Charlote, reparación de exportación/importación ZIP de acompañantes con 26 audios y retratos, vinculación especializada 1:1 de audio, texto e imagen, y nueva arquitectura documentada."
+  "releaseNotes": "Aurea v0.1.7: Nueva interfaz de inicio (Onboarding en primer lanzamiento) con elección transparente de modo: Como Invitado (almacenamiento 100% local, inicio desde cero sin cuenta ni conexión) o Con Gmail (búsqueda automática de partida en el servidor y restauración integral en la nube). Respaldo y carga completa de la partida del hormiguero (castas, especies peruanas, huevos en incubación, recursos y decoraciones). Auditoría y perfeccionamiento estético de todas las pantallas con la identidad visual Aurea."
 }
