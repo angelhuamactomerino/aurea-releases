@@ -1,6 +1,6 @@
 {
-  "versionCode": 26,
-  "versionName": "0.1.8",
+  "versionCode": 27,
+  "versionName": "0.1.9",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.1.8: Gran expansión mirmecológica del Perú. Catálogo ampliado con 14 géneros y 22 especies peruanas reales (Atta, Acromyrmex, Cephalotes, Paraponera, Dinoponera, Odontomachus, Camponotus, Pheidole, Eciton, Dorymyrmex, Gigantiops, Pseudomyrmex, Brachymyrmex, Ectatomma). Tienda biológica de castas dinámica con perks especializados (jardineras de hongos, cortadoras de hojas, soldados fragmóticos, meleras almacén, cazadoras titán con aguijón nivel 4, mandíbulas de resorte 180°, soldados macrocéfalos, marabunta de hoz, princesas aladas reales). Sistema morfológico adaptado: especies monomórficas sin soldados con atributos evolutivos únicos. Modelos visuales anatómicos en tiempo real en el hormiguero interactivo."
+  "releaseNotes": "Aurea v0.1.9: Corrección integral de inicio de sesión con Google y sincronización en Firebase. Se habilitó el Web Client ID oficial en google-services.json y se integró autenticación nativa con GoogleAuthProvider y Credential Manager para registrar de forma real y visible a los usuarios en Firebase Auth (Consola > Authentication > Users). Creación automática y merge del documento raíz users/{uid} en Cloud Firestore antes de subcolecciones para visualizar ciclos, asignaturas, notas y hormiguero en la base de datos de Firestore. Diagnóstico y retroalimentación transparente del estado de Cloud Firestore."
 }
