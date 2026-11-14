@@ -6,21 +6,19 @@ Canal oficial y público de distribución y actualización continua para **Aurea
 
 ## 📥 Descarga Directa de la Última Versión
 
-- **Última Versión:** `v0.2.3` (Build `31`)
+- **Última Versión:** `v0.2.4` (Build `32`)
 - **Descargar APK Oficial:** [Aurea.apk](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk)
 - **Manifiesto de Versión:** [version.json](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/version.json)
 
 ---
 
-## ✨ Novedades en v0.2.3 (Build 31)
+## ✨ Novedades en v0.2.4 (Build 32)
 
-- **Cuenta Exclusiva con Google y Perfil Inicial Personalizable:**
-  - Todo inicio de sesión y vinculación de cuenta ahora se realiza exclusivamente mediante **Google** (`CredentialManager` + respaldo OAuth), eliminando formularios manuales.
-  - Al entrar por primera vez (con Google o como Invitado) puedes elegir tu **nombre de usuario y foto de perfil** (galería, foto de Google, avatares de Aurea o iniciales), y editarlos en cualquier momento desde **Ajustes**.
-- **Sincronización 100% Automática y Offline-Resiliente:**
-  - Se eliminaron los botones manuales de guardado y carga: todo avance se respalda en automático al existir conexión; si no hay internet, la sesión permanece abierta y los cambios se suben en cuanto vuelve la red.
-- **Cerrar Sesión y Reinicio Limpio:**
-  - Nuevo botón **Cerrar sesión** siempre visible en **Ajustes** que limpia el progreso local desde cero y regresa a la pantalla inicial; si vuelves a elegir tu cuenta de Google, recuperas hasta el último progreso guardado en la nube.
+- **Corrección Exhaustiva de Inicio de Sesión y Firestore (Método del Elefante y Pez Dorado):**
+  - **Solución al error `Failed to get document from server... local cache`:** Al cerrar y reabrir sesión con Google, Firestore implementa reintentos con retraso exponencial para permitir que la conexión gRPC y el token de autenticación se estabilicen.
+  - **Recuperación Inteligente desde Caché Local:** Si el servidor no responde por problemas de red o latencia, la aplicación consulta la caché local persistente de Firestore del dispositivo, restaurando de inmediato los datos del usuario sin bloquear el acceso ni forzar cierres de sesión.
+  - **Sesión Resiliente Offline:** Si no hay internet durante el login, la sesión permanece iniciada y los datos se sincronizan automáticamente con el servidor al recuperar la conexión.
+  - **Cierre de Sesión Síncrono y Seguro:** Limpieza completa del estado de `CredentialManager` y prevención de subidas redundantes mediante una ventana de gracia post-sincronización (`remoteApplyGraceUntilEpoch`).
 
 ---
 

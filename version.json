@@ -1,6 +1,6 @@
 {
-  "versionCode": 31,
-  "versionName": "0.2.3",
+  "versionCode": 32,
+  "versionName": "0.2.4",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.3 (Build 31): Autenticación y vinculación exclusiva con Google desde Bienvenida, Inicio y Ajustes (sin formularios manuales). Nuevo flujo de configuración de perfil inicial (nombre de usuario y foto desde galería, cuenta de Google, avatares Aurea o iniciales) para cuentas nuevas e invitados, más editor completo de perfil en Ajustes. Sincronización 100% automática en segundo plano (sin botones manuales de subir/cargar): cuando no hay conexión la sesión permanece activa y los avances se suben automáticamente al recuperar internet. Nuevo botón 'Cerrar sesión' en Ajustes con reinicio limpio de datos locales a 0 y retorno a la pantalla de inicio."
+  "releaseNotes": "Aurea v0.2.4 (Build 32): Corrección exhaustiva con método del elefante y pez dorado para inicio de sesión, guardado local y servidor. Solución definitiva al error de Firestore Source.SERVER ('Failed to get document from server... local cache') tras cerrar y reabrir sesión con Google mediante reintentos exponenciales con gRPC y fallback inteligente a caché local persistente. Manejo resiliente sin conexión que preserva la sesión activa sin forzar cierre ni pérdida de datos locales. Limpieza síncrona de Credential Manager en cierre de sesión y supresión de subidas redundantes mediante ventana de gracia post-sincronización."
 }
