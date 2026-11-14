@@ -1,6 +1,6 @@
 {
-  "versionCode": 37,
-  "versionName": "0.2.9",
+  "versionCode": 38,
+  "versionName": "0.3.0",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.9 (Build 37): Vinculación bidireccional integral del Pomodoro (Inicio/Búnker y Hormiguero). Contabilización de tiempo avanzado al cancelar sesiones para túnel, néctar y daño de asedio semanal. Panel interactivo de estadísticas de estudio en el perfil: horas por día, mes, año y total, vitrina de 6 récords personales, rangos de maestría de enfoque, gráfico semanal de 7 días y citas reflexivas de Charlote."
+  "releaseNotes": "Aurea v0.3.0 (Build 38): Rediseño vectorial 2D de alto detalle (cel-shading, gradientes orgánicos y contornos nítidos) para el hormiguero y las hormigas. Cielo dinámico ligado al Pomodoro (día cálido en Enfoque, crepúsculo en Descanso), pasto animado al viento, estratos subterráneos multicapa, túneles orgánicos Bézier ilimitados, mini-cámara centrada en la Reina y botón Ampliar con exploración libre, anatomía diferenciada para las 43 especies y castas, caminata en trípode alternado alineada a la curva y comportamientos de excavación, acicalo y trofalaxia."
 }
