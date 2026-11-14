@@ -1,6 +1,6 @@
 {
-  "versionCode": 36,
-  "versionName": "0.2.8",
+  "versionCode": 37,
+  "versionName": "0.2.9",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.8 (Build 36): Resiliencia en Google Login sin desconexión abrupta ante permisos diferidos. Auditoría completa: créditos decimales y recomendaciones de notas mínimas en grupos e individuales, protección matemática contra desbordes y pulido visual en toda la aplicación."
+  "releaseNotes": "Aurea v0.2.9 (Build 37): Vinculación bidireccional integral del Pomodoro (Inicio/Búnker y Hormiguero). Contabilización de tiempo avanzado al cancelar sesiones para túnel, néctar y daño de asedio semanal. Panel interactivo de estadísticas de estudio en el perfil: horas por día, mes, año y total, vitrina de 6 récords personales, rangos de maestría de enfoque, gráfico semanal de 7 días y citas reflexivas de Charlote."
 }
