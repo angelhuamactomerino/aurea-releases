@@ -1,6 +1,6 @@
 {
-  "versionCode": 33,
-  "versionName": "0.2.5",
+  "versionCode": 34,
+  "versionName": "0.2.6",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.5 (Build 33): Soporte integral de créditos con decimales en asignaturas (ej. 3.5, 4.5) con migración de base de datos Room Schema v11. Sistema mejorado de recomendaciones inteligentes para aprobar: recomendaciones precisas para conjuntos de notas pendientes con cálculo de nota mínima requerida en cada uno de los últimos laboratorios/prácticas, y nota mínima en evaluaciones individuales para asegurar la meta aprobatoria."
+  "releaseNotes": "Aurea v0.2.6 (Build 34): Mejoras del Hormiguero bajo metodología Elephant & Goldfish: Multiplicador de asedio de soldados (+15% c/u) y géneros en combate semanal, modo Claustro/Vacaciones para pausar el consumo de néctar, píldoras rápidas de excavación Pomodoro, modal cinemático de recompensas y eclosiones post-enfoque, interactividad táctil viva en el Formicarium con ondas de feromonas y destellos en la cámara real, habilidades pasivas auténticas por género de mirmecofauna peruana, y trofeos subterráneos geológicos por mérito académico."
 }
