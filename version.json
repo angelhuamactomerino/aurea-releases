@@ -1,6 +1,6 @@
 {
-  "versionCode": 29,
-  "versionName": "0.2.1",
+  "versionCode": 30,
+  "versionName": "0.2.2",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.1: Corrección integral del registro de usuarios en Firebase Authentication y Cloud Firestore. Se eliminó el fallback simulado local en AureaAuthManager que silenciaba fallos de OAuth e impedía el registro en la consola de Firebase. Se integró registro y autenticación directa en Firebase Auth con el correo seleccionado garantizando que el usuario aparezca visible de inmediato en Firebase Console > Authentication > Users. Se incorporó formulario directo de Correo/Contraseña, diálogo interactivo de Diagnóstico Firebase con copia rápida en un toque de la huella SHA-1 de producción (5E:7D:E3:98:F8:B4:DA:6E:6D:F4:E6:57:3C:60:1B:C8:63:F7:7C:52) y sincronización automática de perfil y partida en Cloud Firestore users/{uid}."
+  "releaseNotes": "Aurea v0.2.2 (Build 30): Carga rápida y automática de tu partida al iniciar sesión con Google desde Bienvenida, Inicio y Ajustes mediante Credential Manager unificado y consultas paralelas en Cloud Firestore dentro de una transacción atómica. Autosincronización automática en la nube cuando hay conexión y cola offline resiliente que sincroniza tus avances pendientes en cuanto vuelve Internet. Depuración completa del módulo Académico: edición de prácticas dentro de un conjunto restringida a nombre y nota (sin alterar ajustes del grupo), validación estricta de pesos/fechas/decimales y confirmaciones seguras al eliminar ciclos, conjuntos, materias o evaluaciones."
 }
