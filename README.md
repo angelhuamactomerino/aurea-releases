@@ -6,51 +6,33 @@ Canal oficial y público de distribución y actualización continua para **Aurea
 
 ## 📥 Descarga Directa de la Última Versión
 
-- **Última Versión:** `v0.1.3` (Build `21`)
+- **Última Versión:** `v0.2.1` (Build `29`)
 - **Descargar APK Oficial:** [Aurea.apk](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk)
 - **Manifiesto de Versión:** [version.json](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/version.json)
 
 ---
 
-## 🐜 Novedades en v0.1.3 (Sistema Mirmecológico Avanzado del Perú)
+## ✨ Novedades hasta v0.2.1 (Build 29)
 
-- **Múltiples Colonias Independientes por Especie:**
-  - Puedes fundar y poseer colonias separadas por cada especie peruana que desbloquees.
-  - Eliges libremente tu colonia principal activa donde te concentrarás.
-- **Hibernación Segura para Colonias Inactivas:**
-  - Las colonias que no escojas como principal quedan congeladas en hibernación segura: no consumen reservas de néctar ni sufren muertes por hambruna ni asedios.
-- **Regla Mensual de Cambio de Colonia Principal:**
-  - El cambio de colonia principal está regulado a 1 vez cada 30 días con diálogo explicativo y contador de días restantes.
-- **Inicio Biológico desde Cero (Solo la Reina Fundadora):**
-  - Cada colonia empieza desde cero: 0 obreras, 0 nodrizas, 0 forrajeras, 0 excavadoras, 0 soldados.
-  - La reina está en claustro protegiendo su primer huevo fundador en la guardería subterránea.
-- **Guardería de Crías Real con Crecimiento y Castas Aleatorias:**
-  - Huevos aleatorios por casta según el género biológico.
-  - Incubación dinámica acelerada por minutos de concentración Pomodoro y calor de nodrizas (+15% de velocidad por cada nodriza).
-  - Estimulación directa de puesta de huevos por la reina con néctar o ámbar.
-- **Gran Catálogo de 8 Géneros y Especies Nativas del Perú:**
-  - *Brachymyrmex* (*B. patagonicus*, *B. cordemoyi*)
-  - *Ectatomma* (*E. ruidum*, *E. tuberculatum*)
-  - *Camponotus* (*C. sericeiventris*, *C. maculatus*)
-  - *Atta* (*A. cephalotes*, *A. sexdens* - Cortadoras Curuhuinsi)
-  - *Cephalotes* (*C. atratus*, *C. pusillus* - Tortuga y planeadoras)
-  - *Odontomachus* (*O. haematodus*, *O. bauri* - Mandíbulas de resorte)
-  - *Paraponera* (*P. clavata* - La mítica Isula amazónica)
-  - *Pseudomyrmex* (*P. triplarinus* - Hormiga del Tangarana)
-- **Morfología Visual Fiel en Canvas por Especie y Casta:**
-  - Forrajeras *Atta* cargando fragmentos de hojas verdes y súper-soldados.
-  - Soldados *Cephalotes* con cabeza discoide/aplanada de escudo (tapón de túnel).
-  - Mandíbulas de resorte lineales a 180° en *Odontomachus*.
-  - Cuerpo colosal y aguijón prominente en *Paraponera*.
-  - Ojos compuestos desproporcionadamente grandes en *Pseudomyrmex*.
-- **Colección Completa de Morfologías (Skins) por Especie:**
-  - Variantes de color y textura auténticas para cada especie del Perú.
+- **Autenticación Firebase y Sincronización en la Nube:**
+  - Registro y autenticación directa con Google (Credential Manager) y Correo/Contraseña en Firebase Authentication (`aurea-10d05`), eliminando fallbacks locales silenciosos.
+  - Diagnóstico interactivo de Firebase con copia rápida de la huella `SHA-1` de producción (`5E:7D:E3:98:F8:B4:DA:6E:6D:F4:E6:57:3C:60:1B:C8:63:F7:7C:52`).
+  - Sincronización bidireccional en Cloud Firestore (`users/{uid}`) basada en `syncId` (UUID), marcas temporales `updatedAtEpoch` y escritura por lotes.
+- **Formicarium Subterráneo en Vivo y Mirmecofauna del Perú:**
+  - Catálogo ampliado a **43 especies nativas del Perú agrupadas en 14 géneros** (incluyendo expansiones recientes de *Camponotus* y *Pheidole*), con hibernación segura de colonias secundarias, regla de 30 días para cambio de colonia principal y morfologías/skins en Canvas.
+  - Cámaras iluminadas interactivas, Pomodoro circular tolerante a reinicios, racha diaria con escudos (*Streak Freezes*), misiones, eventos 24h, tienda subterránea y jefes semanales.
+- **Tema Adaptativo y Protección Monotónica (`MonotonicClockGuard`):**
+  - 4 modos visuales reactivos (**Sistema**, **Claro**, **Dark Slate** y **Midnight OLED**) con 4 paletas de acento (*Teal*, *Índigo*, *Ámbar* y *Violeta*).
+  - Sesiones Búnker, Pomodoro y reglas ancladas a `elapsedRealtime` y `BOOT_COUNT`, más servicio bajo demanda (`FocusMonitorService`) y Room Schema v10 con migraciones incrementales `1..10`.
+- **Módulo Académico, Horarios y Acompañantes Universales (1:1):**
+  - Ciclos semestrales, cursos con créditos, grupos de evaluaciones con modos de redondeo y promedio ponderado/simple.
+  - **Charlote** (26 pistas de voz 1:1 y retratos dinámicos) y sistema universal de acompañantes importables/exportables en `.zip`.
 
 ---
 
 ## 🔄 Actualización In-App
 
-La aplicación Aurea consulta automáticamente este repositorio público para verificar si existe una nueva compilación disponible y descargarla directamente en el dispositivo sin necesidad de tokens o credenciales privadas de GitHub.
+La aplicación Aurea consulta automáticamente este repositorio público (`version.json`) para verificar si existe una nueva compilación (`manifest.versionCode > BuildConfig.VERSION_CODE`) y descargar el APK firmado directamente en el dispositivo sin necesidad de tokens o credenciales privadas de GitHub.
 
 > [!NOTE]
 > **Respaldo en Google Drive:** Siempre que se actualice este repositorio en GitHub, la versión correspondiente también se actualizará en **Google Drive > `Proyectos` > `Aurea`**.
