@@ -51,3 +51,6 @@ Canal oficial y público de distribución y actualización continua para **Aurea
 ## 🔄 Actualización In-App
 
 La aplicación Aurea consulta automáticamente este repositorio público para verificar si existe una nueva compilación disponible y descargarla directamente en el dispositivo sin necesidad de tokens o credenciales privadas de GitHub.
+
+> [!NOTE]
+> **Respaldo en Google Drive:** Siempre que se actualice este repositorio en GitHub, la versión correspondiente también se actualizará en **Google Drive > `Proyectos` > `Aurea`**.
