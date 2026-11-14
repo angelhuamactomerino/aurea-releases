@@ -1,6 +1,6 @@
 {
-  "versionCode": 35,
-  "versionName": "0.2.7",
+  "versionCode": 36,
+  "versionName": "0.2.8",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.7 (Build 35): Integración verificada con Cloud Firestore activo en el servidor. Sincronización automática silenciosa y transparente de partida por usuario sin botones manuales. Aislamiento total de datos por cuenta de Google y respaldo local-nube optimizado."
+  "releaseNotes": "Aurea v0.2.8 (Build 36): Resiliencia en Google Login sin desconexión abrupta ante permisos diferidos. Auditoría completa: créditos decimales y recomendaciones de notas mínimas en grupos e individuales, protección matemática contra desbordes y pulido visual en toda la aplicación."
 }
