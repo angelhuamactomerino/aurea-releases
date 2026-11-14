@@ -6,24 +6,30 @@ Canal oficial y público de distribución y actualización continua para **Aurea
 
 ## 📥 Descarga Directa de la Última Versión
 
-- **Última Versión:** `v0.2.2` (Build `30`)
+- **Última Versión:** `v0.2.3` (Build `31`)
 - **Descargar APK Oficial:** [Aurea.apk](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk)
 - **Manifiesto de Versión:** [version.json](https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/version.json)
 
 ---
 
-## ✨ Novedades hasta v0.2.2 (Build 30)
+## ✨ Novedades en v0.2.3 (Build 31)
 
-- **Carga Automática y Rápida de Partida + Autosync Offline:**
-  - Inicio de sesión unificado con Google (`CredentialManager` + respaldo OAuth) desde Bienvenida, Inicio y Ajustes que descarga y fusiona automáticamente la partida previa en paralelo dentro de una transacción atómica en Room.
-  - Sincronización automática en Cloud Firestore (`users/{uid}`) cada vez que cambian los datos locales con conexión a Internet, más cola pendiente (`PendingOffline`) que actualiza la nube automáticamente al recuperar red o volver al primer plano.
-- **Módulo Académico Depurado:**
-  - Edición de evaluaciones dentro de un conjunto limitada exclusivamente a nombre y nota (preservando la configuración del grupo y evitando recompensas duplicadas en la colonia al editar notas).
-  - Validación de fechas reales en ciclos, pesos y decimales (`.` y `,`), eliminación en cascada de ciclos/conjuntos con confirmaciones de seguridad, y ausencia de prefijos duplicados ni elementos redundantes.
-- **Autenticación Firebase, Formicarium y Protección Monotónica (`MonotonicClockGuard`):**
-  - Registro y autenticación directa con Google y Correo/Contraseña en Firebase Authentication (`aurea-10d05`), más catálogo de **43 especies nativas del Perú agrupadas en 14 géneros**, temas reactivos (**Sistema**, **Claro**, **Dark Slate** y **Midnight OLED**), Pomodoro resiliente y Room Schema v10.
-- **Horarios y Acompañantes Universales (1:1):**
-  - **Charlote** (26 pistas de voz 1:1 y retratos dinámicos) y sistema universal de acompañantes importables/exportables en `.zip`.
+- **Cuenta Exclusiva con Google y Perfil Inicial Personalizable:**
+  - Todo inicio de sesión y vinculación de cuenta ahora se realiza exclusivamente mediante **Google** (`CredentialManager` + respaldo OAuth), eliminando formularios manuales.
+  - Al entrar por primera vez (con Google o como Invitado) puedes elegir tu **nombre de usuario y foto de perfil** (galería, foto de Google, avatares de Aurea o iniciales), y editarlos en cualquier momento desde **Ajustes**.
+- **Sincronización 100% Automática y Offline-Resiliente:**
+  - Se eliminaron los botones manuales de guardado y carga: todo avance se respalda en automático al existir conexión; si no hay internet, la sesión permanece abierta y los cambios se suben en cuanto vuelve la red.
+- **Cerrar Sesión y Reinicio Limpio:**
+  - Nuevo botón **Cerrar sesión** siempre visible en **Ajustes** que limpia el progreso local desde cero y regresa a la pantalla inicial; si vuelves a elegir tu cuenta de Google, recuperas hasta el último progreso guardado en la nube.
+
+---
+
+## 📚 Novedades Anteriores (v0.2.2 y previas)
+
+- **Carga Automática y Rápida de Partida + Módulo Académico Depurado (v0.2.2):**
+  - Consultas paralelas en Cloud Firestore dentro de una transacción atómica en Room, edición aislada de prácticas dentro de conjuntos y validación estricta de pesos, fechas y decimales.
+- **Formicarium, Protección Monotónica y Acompañantes Universales:**
+  - Catálogo de **43 especies nativas del Perú agrupadas en 14 géneros**, temas adaptativos (**Sistema**, **Claro**, **Dark Slate** y **Midnight OLED**), Pomodoro y Modo Búnker protegidos con `MonotonicClockGuard`, Charlote (26 pistas 1:1) y paquetes `.zip` universales.
 
 ---
 
