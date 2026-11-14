@@ -1,6 +1,6 @@
 {
-  "versionCode": 32,
-  "versionName": "0.2.4",
+  "versionCode": 33,
+  "versionName": "0.2.5",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.2.4 (Build 32): Corrección exhaustiva con método del elefante y pez dorado para inicio de sesión, guardado local y servidor. Solución definitiva al error de Firestore Source.SERVER ('Failed to get document from server... local cache') tras cerrar y reabrir sesión con Google mediante reintentos exponenciales con gRPC y fallback inteligente a caché local persistente. Manejo resiliente sin conexión que preserva la sesión activa sin forzar cierre ni pérdida de datos locales. Limpieza síncrona de Credential Manager en cierre de sesión y supresión de subidas redundantes mediante ventana de gracia post-sincronización."
+  "releaseNotes": "Aurea v0.2.5 (Build 33): Soporte integral de créditos con decimales en asignaturas (ej. 3.5, 4.5) con migración de base de datos Room Schema v11. Sistema mejorado de recomendaciones inteligentes para aprobar: recomendaciones precisas para conjuntos de notas pendientes con cálculo de nota mínima requerida en cada uno de los últimos laboratorios/prácticas, y nota mínima en evaluaciones individuales para asegurar la meta aprobatoria."
 }
