@@ -1,6 +1,6 @@
 {
-  "versionCode": 38,
-  "versionName": "0.3.0",
+  "versionCode": 39,
+  "versionName": "0.3.1",
   "apkUrl": "https://raw.githubusercontent.com/angelhuamactomerino/aurea-releases/main/apk/Aurea.apk",
-  "releaseNotes": "Aurea v0.3.0 (Build 38): Rediseño vectorial 2D de alto detalle (cel-shading, gradientes orgánicos y contornos nítidos) para el hormiguero y las hormigas. Cielo dinámico ligado al Pomodoro (día cálido en Enfoque, crepúsculo en Descanso), pasto animado al viento, estratos subterráneos multicapa, túneles orgánicos Bézier ilimitados, mini-cámara centrada en la Reina y botón Ampliar con exploración libre, anatomía diferenciada para las 43 especies y castas, caminata en trípode alternado alineada a la curva y comportamientos de excavación, acicalo y trofalaxia."
+  "releaseNotes": "Aurea v0.3.1 (Build 39): Renovación de Ajustes con 5 estilos visuales (Áurea Clásico, Pergamino, Medianoche, Bosque y Rosa), eliminación de configuración técnica de TTS, exportación directa de Charlote como paquete .aurc de referencia, fase de descanso en Pomodoro, Room v14 con evaluación sustitutoria y reingeniería de Académico con niveles de rendimiento y simulador interactivo de notas."
 }
